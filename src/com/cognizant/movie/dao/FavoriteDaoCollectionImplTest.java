@@ -39,4 +39,3 @@ public class FavoriteDaoCollectionImplTest {
         favoriteDao.removeFavoritesById(1, 2);
     }
 }
-
