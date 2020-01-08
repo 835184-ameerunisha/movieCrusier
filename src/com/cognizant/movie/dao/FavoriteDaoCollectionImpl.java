@@ -7,10 +7,6 @@ import java.util.List;
 import com.cognizant.movie.model.Favorite;
 import com.cognizant.movie.model.Movie;
 
-
-
-
-
 public class FavoriteDaoCollectionImpl implements FavoriteDao {
     public static HashMap<Long, Favorite> userFavorite;
 

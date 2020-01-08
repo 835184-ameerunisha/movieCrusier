@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>edit-page</title>
+<link rel="shortcut icon" href="images\logo.png">
+<link rel="stylesheet" href="styles\style.css">
+<script type="text/javascript" src="js\script.js">
+</script>
+</head>
+<body>
+        <table>
+            <div class="header">
+                <div class="container">
+                  <div class="movie">Movie Cruiser&nbsp;&nbsp;&nbsp;<img src="images\logo.png" height=25
+                        width=25>
+                </div>
+				</div>
+                <div class="nav">
+                    <a href="movie-list-admin.html">Movies</a>
+
+                </div>
+            </div>
+			</div>
+
+            <h1 class="movie">Edit Movie</h1>
+            <form name="edit" action="edit-movie-status.html" onsubmit="return movie()" method="post">
+                <table class="movie">
+                    <tr>
+                        <td><label for="Title"><b>Title</b></label>
+                    </tr>
+                    <tr>
+                        <td><input id="Title" type="text" size=62 name="title" autocomplete="off"
+                            spellcheck="false" placeholder="Avengers-End Game" /></td>
+                    </tr>
+                </table>
+                <table class="movie">
+                    <tr>
+                        <td><label for="Gross"><b>Gross($)</b></label></br> <input id="Gross" type="text"
+                            size=10 name="boxOffice" autocomplete="off" spellcheck="false" placeholder="2787965087"/></td>
+                        <td><label><b>Active</b></label></br> <input type="radio" name="active" value="yes" /checked>Yes
+                            <input type="radio" name="active" value="no" />No</td>
+                        <td></td>
+                        <td></td>
+                        <td><label for="date"><b>Date of Launch</b></label></br> <input id="date"
+                            type="text" size=10 name="dateOfLaunch" autocomplete="off" spellcheck="false" placeholder="27/04/2022" /></td>
+                        <td></td>
+                        <td></td>
+                        <td><label for="Genre" ><b>Genre</b></label></br> <select name="genre">
+						        <option value="">-select-</option>
+                                <option value="Science Fiction"/>Science Fiction
+                                </option>
+                                <option value="Super Hero"/>Super Hero
+                                </option>
+                                <option value="Romance"/>Romance
+                                </option>
+                                <option value="Comedy"/>Comedy
+                                </option>
+								<option value="Adventure"/>Adventure
+                                </option>
+								<option value="Thriller"/>Thriller
+                                </option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="hasTeaser" value="Has Teaser" /checked><b>Has Teaser</b></td>
+                    </tr>
+                    <td><input type="submit"
+                        style="background-color: #0716a3; color: white; width: 120px; height: 30px;border:none;"
+                        value="Save" name="submit"></td>
+                    </tr>
+                </table>
+                <div class="footer">
+                    <div class="container">
+					Copyright&copy2019 
+					</div>
+                </div>
+            </form>
+          </body>
+</html>		  
