@@ -22,8 +22,8 @@ public class Favorite {
         return noOfFavorite;
     }
 
-    public void setNoOfFavorite(int noOfFavorite) {
-        this.noOfFavorite = noOfFavorite;
+    public void setNoOfFavorite(int boxOffice) {
+        this.noOfFavorite = boxOffice;
     }
 
     @Override
@@ -31,4 +31,5 @@ public class Favorite {
         return "Favorite [favoriteList=" + favoriteList + ", total=" + noOfFavorite + "]";
     }
 
+    
 }

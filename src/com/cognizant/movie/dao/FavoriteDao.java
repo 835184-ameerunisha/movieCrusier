@@ -9,3 +9,4 @@ public interface FavoriteDao {
 
     public void removeFavoritesById(long userId, long movieId);
 }
+   
