@@ -83,8 +83,7 @@
                         Teaser</td>
                 </c:when>
                 <c:otherwise>
-                    <td><input type="checkbox" name="has Teaser" value="No" checked="checked">Has
-                        Teaser</td>
+                    <td><input type="checkbox" name="has Teaser" value="No">Has Teaser</td>
                 </c:otherwise>
 
             </c:choose>
@@ -92,9 +91,9 @@
 
         </tr>
         <tr>
-          <td><input type="submit"
-                        style="background-color: #0716a3; color: white; width: 120px; height: 30px;border:none;"
-                        value="Save" name="submit"></td>
+            <td><input type="submit"
+                style="background-color: #0716a3; color: white; width: 120px; height: 30px; border: none;"
+                value="Save" name="submit"></td>
         </tr>
     </table>
     </form>
